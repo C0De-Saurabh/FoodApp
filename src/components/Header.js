@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logoimg from 'logo.png';
+import logoimg from './logo.png'
 import UseOnlineStatus from '../utils/useOnlineStatus';
 const UpperBar = () => {
 
