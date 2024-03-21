@@ -1,0 +1,44 @@
+
+.ResCardS {
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    background-color: #fff;
+    position: relative;
+  }
+  
+  .ResCardS:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .shimmer {
+    background: linear-gradient(to right, #f0f0f0 4%, #e0e0e0 25%, #f0f0f0 36%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite linear;
+    position: relative;
+  }
+  
+  .shimmer-container {
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .shimmer-line {
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(to right, #f0f0f0 4%, #e0e0e0 25%, #f0f0f0 36%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite linear;
+    margin-bottom: 8px;
+  }
+  
+  @keyframes shimmer {
+    to {
+      background-position: -200% 0;
+    }
+  }
+  
