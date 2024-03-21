@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logoimg from '/NAMASTE REACT/Food/foodapp/src/logo.png';
+import logoimg from '../logo.png';
 import UseOnlineStatus from '../utils/useOnlineStatus';
 const UpperBar = () => {
 
